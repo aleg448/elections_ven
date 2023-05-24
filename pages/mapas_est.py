@@ -31,7 +31,7 @@ layout = html.Div(
             ], width=2,
             ),
         dbc.Col([html.H1("Brecha entre partido Chavista y oposicion"),
-        html.Iframe(id="map", srcDoc=open(r"C:\Users\nadya\Downloads\venapp\ven-app-web\data\mapas\Mapa_estado_2020.html").read(), width="100%", height="600")       
+        html.Iframe(id="map", srcDoc=open(r"data\mapas\Mapa_estado_2020.html").read(), width="100%", height="600")       
 ]),
         ],
         align="start",
