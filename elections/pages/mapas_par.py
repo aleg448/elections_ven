@@ -31,7 +31,7 @@ layout = html.Div(
             ], width=2,
             ),
         dbc.Col([html.H1("Brecha entre partido Chavista y oposicion"),
-        html.Iframe(id="map", srcDoc=open(r"data\mapas\Mapa_parroquias_2020.html").read(), width="100%", height="600")       
+        html.Iframe(id="map", srcDoc=open(r"Mapa_parroquias_2020.html").read(), width="100%", height="600")       
 ]),
         ],
         align="start",
